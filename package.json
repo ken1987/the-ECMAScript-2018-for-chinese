@@ -1,0 +1,31 @@
+{
+  "name": "es2017-for-chinese",
+  "version": "0.0.1",
+  "description": "es2017 规范中文翻译",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "release": "node ./build/summary.js"
+  },
+  "lint-staged": {
+    "build/**.js": ["eslint --fix", "git add"]
+  },
+  "dependencies": {
+    "fs-extra": "^6.0.0",
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^6.2.0",
+    "commitizen": "^2.9.6",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
