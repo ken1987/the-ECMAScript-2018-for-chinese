@@ -69,3 +69,7 @@
       * [6.1.7.2 对象的内部方法和内部插槽](docs/6.1.7.2.md)
       * [6.1.7.3 基础内部方法的不变量](docs/6.1.7.3.md)
       * [6.1.7.4 已知的内部对象](docs/6.1.7.4.md)
+  * [6.2 ECMAScript 规范类型](docs/6.2.md)
+    * [6.2.1 List 和 Record 规范类型](docs/6.2.1.md)
+    * [6.2.2 Set 和 Relation 规范类型](docs/6.2.2.md)
+    * [6.2.3 Completion Record 规范类型](docs/6.2.3.md)
