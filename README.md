@@ -1,3 +1,3 @@
-# the ECMAScript 2017 for chinese
+# the ECMAScript 2018 for chinese
 
-es2017 规范中文翻译
+es2018 规范中文翻译
